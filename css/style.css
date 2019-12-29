@@ -1,0 +1,296 @@
+
+
+header{
+	padding: 30px;
+}
+
+.banner{
+	background: url(../img/banner.png);
+}
+
+.banner-main h2{
+	color: #fff;
+	font-size: 120px;
+	text-align: center;
+}
+
+.banner-main span{
+	border-bottom: 2px solid #15a4fa;
+	display: block;
+	margin: 30px auto;
+	width: 50%;
+}
+
+.banner-main p{
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.btn{
+	background: transparent;
+	font-size: 18px;
+	color: #fff;
+	padding: 10px 27px;
+	border: 1px solid #15a4fa;
+	display: block;
+	margin: 0px auto;
+}
+
+.fa.fa-chevron-down{
+	margin-top: 150px;
+	display: block;
+	color: white;
+	text-align: center;
+}
+
+.design{
+	padding: 70px 0px;
+}
+
+.design h2{
+	text-align: center;
+	color: #2d3950;
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+
+.design p{
+	text-align: center;
+	color: #999999;
+	font-size: 20px;
+}
+
+/* feature part start*/
+
+.feature{
+	padding: 60px 0px;
+	background: #ffffff;
+}
+
+.feature-one img{
+	padding: 15px 20px;
+	color: white;
+	margin: 0px auto;
+	display: block;
+	background-color: #48baff; 
+}
+
+.feature-one h2{
+	font-size: 22px;
+	color: #2d3950;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.feature-one p{
+	text-align: center;
+	margin-top: 25px;
+}
+
+/* feature part end*/
+
+
+/* portfolio part start*/
+
+.portfolio{
+	padding: 70px 0px;
+}
+
+.portfolio-title{
+	width: 60%;
+	margin: 0px auto;
+}
+
+.portfolio-title h2{
+	text-align: center;
+	font-size: 41px;;
+	color: #2d3950;
+	margin-bottom: 20px;
+}
+
+.portfolio-title p{
+	text-align: center;
+	font-size: 15px;
+	color: #b6b7b7;
+	margin-bottom: 75px;
+}
+
+
+.portfolio-one img{
+	padding: 8px 0px;
+}
+
+/* portfolio part end*/
+
+
+/* contact part start*/
+
+.contact{
+	width: 100%;
+	float: left;
+	background: url(../img/bg.png);
+	
+}
+
+.overlay{
+ 	width: 100%;
+	float: left;
+	background: #1e2530c4;
+	padding: 60px 0px;
+}
+
+.contact-title{
+	text-align: center;
+	color: #fff;
+
+}
+
+.contact-form{
+	width: 550px;
+	margin: 0px auto;
+}
+
+.contact-form h2{
+	text-align: center;
+	color: #fff;
+	font-size: 41px;
+	margin-bottom: 15px;
+}
+
+.contact-form p{
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.form-control{
+	width: 100%;
+	height: 50px;
+	margin: 5px 0px;
+	padding: 0px 10px;
+	background: transparent;
+	border: 1px solid #999999;
+}
+
+.text-area{
+	width: 100%;
+	height: 150px;
+	padding: 10px 10px;
+	margin-top: 5px;
+	background: transparent;
+}
+
+.form-bottom{
+	width: 100%;
+}
+
+.bottom-left{
+	width: 70%;
+	float: left;
+	margin: 5px 0px;
+}
+
+label{
+	color: #fff;
+	font-size: 15px;
+	margin: 10px 0px;
+}
+
+.bottom-right{
+	background: transparent;
+	width: 30%;
+	float: left;
+	margin: 5px 0px;
+	padding: 5px 0px;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid #15a4fa;
+}
+
+/* contact part end*/
+
+/* footer part start*/
+
+footer{
+	width: 100%;
+	float: left;
+	background-color: #F5F9FA;
+}
+
+.footer-left{
+	float: left;
+}
+
+.footer-left h4{
+	font-size: 15px;
+	color: #999999;
+	padding: 40px 0px;
+	margin: 0px 20px;
+}
+
+.footer-right{
+	float: right;
+	padding: 15px 0px;
+}
+
+.footer-right ul{
+	list-style: none;
+	padding: 15px 0px;
+	margin: 0px 30px;
+}
+
+.footer-right ul li{
+	display: inline-block;
+	background: #15a4fa;
+	padding: 8px 8px;
+	color: white;
+
+}
+
+/* footer part end*/
+
+
+/*media query*/
+
+
+/*small device*/
+
+@media (min-width: 0px) and (max-width: 500px){
+
+	.banner-main h2{
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+}
+
+.portfolio-one img{
+	margin-left: 40px;
+
+}
+
+}
+
+/*netbook device*/
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/*dextop device*/
+
+@media (min-width: 768.01px) and (max-width: 992px){
+
+}
+
+/*larg device*/
+
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+}
+
+@media (min-width: 1200.01px){
+
+}
