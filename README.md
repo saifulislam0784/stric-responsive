@@ -1,0 +1,2 @@
+# stric-responsive
+bootstrap
